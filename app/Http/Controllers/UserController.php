@@ -12,7 +12,7 @@ class UserController extends Controller
         $name['student'] = 'Naruto';
         $name['teacher'] = 'Iruka';
 
-        $name['school'] = user::all();
+        $name['users'] = user::all();
 
 
         return view('index', $name);
